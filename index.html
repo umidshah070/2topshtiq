@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <p class="fs-6 mt-5 mb-5">Cart- Customer information -shiping method- <span class="fw-bolder">Payment Method</span></p>
+
+    <form action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off">
+
+      <div class="row">
+
+        <div class="col-7">
+
+          <div class="w-100 mb-5 p-5 bg-body rounded shadow">
+
+            <h2 class="mb-5 fw-bolder fs-2">Payment information</h2>
+
+            <div class="row">
+              <div class="col-12">
+                <div>
+                  <label class="w-100 mb-2" for="card number">
+                    CARD NUMBER
+                  </label>
+                  <input class="mb-5 p-2 form-control" type="password" id="card number" name="card number" placeholder="*** *** ***" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="col-6">
+                <div>
+                  <label class="w-100 mb-2" for="card holder">
+                    CARD HOLDER
+                  </label>
+                  <input class="p-2  form-control" type="text" id="card holder" name="card holder" placeholder="Michael Jorden" required>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div>
+                  <label class="w-100 mb-2" for="card date">
+                    EXP.DATE
+                  </label>
+                  <input class="p-2  form-control" type="date" id="card date" name="card date" placeholder="03/19" required>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div>
+                  <label class="w-100 mb-2" for="cvc">
+                    CVC
+                  </label>
+                  <input class="p-2  form-control" type="password" id="cvc" name="cvc" placeholder="***" required>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+        <div class="col-5">
+
+          <div class="mb-5 p-5 bg-body rounded shadow">
+
+            <div class="d-flex justify-content-between align-items-center border-bottom pb-4">
+
+              <div class="w-100 d-flex align-items-center">
+                <button type="button" class="btn btn-primary position-relative">
+                  Inbox
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    2
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </button>
+
+                <p class="ms-4 pt-3 fw-bolder">Chocolate bar</p>
+              </div>
+
+              <p class="pt-3 fw-bolder">$2.49</p>
+
+            </div>
+
+            <div class="py-4 border-bottom">
+
+              <div class="d-flex justify-content-between">
+
+                <div>
+                  Suptotal
+                </div>
+
+                <div>
+                  $4.98
+                </div>
+
+              </div>
+
+
+              <div class="pt-4 pb-2">
+
+                <div class="d-flex justify-content-between">
+
+                  <div>
+                    Shipping
+                  </div>
+
+                  <div>
+                    $3.00
+                  </div>
+
+                </div>
+
+
+            </div>
+          </div>
+
+          <div class="pt-4 pb-2">
+
+            <div class="d-flex justify-content-between">
+
+              <div>
+                Total
+              </div>
+
+              <div class="fw-bolder">
+                $3.00
+              </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        </div>
+
+      </div>
+
+
+      <div class="col-7">
+
+        <div class="w-100 mb-5 p-5 bg-body rounded shadow">
+
+          <h2 class="mb-5 fw-bolder fs-2">Billing address</h2>
+
+          <div class="d-flex align-items-center form-check border-bottom pb-3">
+
+            <input class="form-check-input fs-4" type="radio" id="fradio" name="fradio" >
+
+            <label class="form-check-label ms-3 fs-6 fw-bolder" for="fradio">
+              Same as the shipping address
+            </label>
+
+          </div>
+
+          <div class="d-flex align-items-center form-check pt-3">
+
+            <input class="form-check-input fs-4" type="radio" id="radio" name="radio" >
+
+            <label class="form-check-label ms-3 fs-6 fw-bolder" for="radio">
+              Use a different billing address
+            </label>
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-7 pe-0 mb-5">
+
+          <div class="d-flex justify-content-between align-items-center">
+
+            <a class="text-decoration-none fs-6" href="#!">Return to shipping method</a>
+
+            <button class="btn btn-primary px-6 py-2 opacity-50" type="submit">Complete order</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </form>
+
+
+  </div>
+
+</body>
+</html>
